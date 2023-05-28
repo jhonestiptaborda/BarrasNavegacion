@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra navegacion diferentes estilos</title>
+    <style>
+        body{
+            font-family: verdana, helvetica;
+            font-weight: bold;
+        }
+
+        #nav{
+            width: 155px;
+        }
+        .titulonav{
+            border: 1px solid #d7d7d7;
+            font-size: 8pt;
+            font-weight: bold;
+            background-color: #e0e0e0;
+            color:#000;
+            padding: 4px;
+        }
+
+        .cuerporec{
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+
+        .cuerporec ul{
+            margin-top: 0;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+            padding: 0,0,0,0;
+            list-style-type: none;
+            list-style-image: none;
+            list-style-position: outside;
+
+        }
+
+        .cuerporec li{
+            border-bottom: 1px solid #d7d7d7;
+            border-left: 1px solid #d7d7d7;
+            border-right: solid #d7d7d7;
+            padding: 1px 0 2px 4px;
+            font-size: 8pt;
+            margin: 0 0 0 0;
+            background-color: #ffffcc;
+            background: transparent url("cuadrado-amarillo.gif") 0 2px no-repeat;
+        }
+
+        .cuerporec a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <div class="titulonav">
+            Secciones
+        </div>
+        <div class="cuerporec">
+            <ul>
+                <li><a href="">Portada</a></li>
+                <li><a href="">Grandes rutas</a></li>
+                <li><a href="">Nuevas rutas</a></li>
+                <li><a href="">Ciudades</a></li>
+                <li><a href="">Pueblos</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
